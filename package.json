@@ -1,0 +1,19 @@
+{
+  "name": "@angular-template/monorepo",
+  "version": "0.0.0",
+  "description": "This is a monorepo template for developing an angular application.",
+  "author": "Jimmy-sheep",
+  "private": true,
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jimmy-sheep/angular-template.git"
+  },
+  "keywords": [],
+  "scripts": {
+    "dev": "pnpm --filter web start",
+    "build": "pnpm --filter web build",
+    "serve:ssr": "pnpm --filter web serve:ssr:@angular-template/web"
+  },
+  "packageManager": "pnpm@10.12.1"
+}
